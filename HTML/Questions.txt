@@ -1,0 +1,31 @@
+HTML and CSS
+
+1. Design a website of an educational institution using framesets and links, A sample design i
+# sign is
+
+as shown below.
+
+Top Frame
+
+Menu frame | Details frame
+
+2. Design a webpage that illustrates the use of the following form controls: (i) input controls:
+single-line text, password, multi-line text. (ii) buttons: submit and reset.
+
+3. Design a webpage that illustrates the use of the following form controls: (i) input controls:
+check box, radio button, select box (ii) buttons: submit and reset.
+
+4. Design a webpage that illustrates the use of the following form controls: (i) input controls:
+datalist, multi-select box, grouped select box (ii) buttons: submit and reset.
+
+5. Design a webpage that illustrates the use of field sets and legends.
+
+6. Design a web page to demonstrate Border colors using internal CSS.
+
+7. Design a web page to demonstrate Text alignment using CSS.
+
+8. Design a web page to demonstrate inline CSS.
+
+9. Design a webpage to invert the behavior of the <h1> to <h6> tags using external CSS.
+
+10. Design a webpage for a simple image gallery.

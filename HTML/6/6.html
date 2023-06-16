@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Border Colors Example</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      border-width: 2px;
+      border-style: solid;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    
+    .red-border {
+      border-color: red;
+    }
+    
+    .blue-border {
+      border-color: blue;
+    }
+    
+    .green-border {
+      border-color: green;
+    }
+    
+    .box img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <h1>Border Colors Example</h1>
+  
+  <div class="box red-border">
+    <img src="Image1.jpg" alt="Image 1">
+  </div>
+  
+  <div class="box blue-border">
+    <img src="Image2.jpg" alt="Image 2">
+  </div>
+  
+  <div class="box green-border">
+    <img src="Image3.jpg" alt="Image 3">
+  </div>
+</body>
+</html>

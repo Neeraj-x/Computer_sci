@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fieldsets and Legends</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    fieldset {
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    legend {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    input[type="reset"] {
+      margin-top: 20px;
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <form>
+    <fieldset>
+      <legend>Contact Info</legend>
+      <label>
+        Name:
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" required>
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Shipping Info</legend>
+      <label>
+        House-no:
+        <input type="text" name="House-no" required>
+      </label>
+      <label>
+        City:
+        <input type="text" name="city" required>
+      </label>
+      <label>
+        Pin-Code:
+        <input type="text" name="pin-code" required>
+      </label>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>

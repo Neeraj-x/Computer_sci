@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Controls Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Controls Example</h1>
+  <form>
+    <label>
+      <input type="checkbox" name="newsletter" value="subscribe">
+      Click to check
+    </label>
+    <label>
+      <input type="radio" name="gender" value="radio1">
+      Radio 1
+    </label>
+    <label>
+      <input type="radio" name="gender" value="radio2">
+      Radio 2
+    </label>
+    <label>
+      Select your favorite color:
+      <select name="color">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+    </label>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>

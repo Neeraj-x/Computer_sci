@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Controls 4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    input[type="reset"] {
+      margin-top: 20px;
+      background-color: red; /* Change button color to red */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Form Controls 4</h1>
+  <form>
+    <label>
+      Select your car:
+      <input type="text" list="cars" name="car">
+      <datalist id="cars">
+        <option value="Toyota">
+        <option value="Honda">
+        <option value="Ford">
+        <option value="Chevrolet">
+      </datalist>
+    </label>
+    <label>
+      Select your favorite cars (hold Ctrl for multiple):
+      <select name="cars" multiple>
+        <option value="Toyota">Toyota</option>
+        <option value="Honda">Honda</option>
+        <option value="Ford">Ford</option>
+        <option value="Chevrolet">Chevrolet</option>
+      </select>
+    </label>
+    <label>
+      Select your favorite car brand:
+      <select name="car-brand">
+        <optgroup label="Japanese">
+          <option value="Toyota">Toyota</option>
+          <option value="Honda">Honda</option>
+        </optgroup>
+        <optgroup label="American">
+          <option value="Ford">Ford</option>
+          <option value="Chevrolet">Chevrolet</option>
+        </optgroup>
+      </select>
+    </label>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset" style="background-color: red; color: white;">
+  </form>
+</body>
+</html>

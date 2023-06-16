@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h1, h2, p {
+      text-align: center;
+    }
+    
+    .left-align {
+      text-align: left;
+    }
+    
+    .right-align {
+      text-align: right;
+    }
+    
+    .justify-align {
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Text Alignment Example</h1>
+    
+    <h2>Center Alignment</h2>
+    <p>This text is aligned in the center of the container.</p>
+    
+    <h2>Left Alignment</h2>
+    <p class="left-align">This text is aligned to the left of the container.</p>
+    
+    <h2>Right Alignment</h2>
+    <p class="right-align">This text is aligned to the right of the container.</p>
+    
+    <h2>Justify Alignment</h2>
+    <p class="justify-align">This text is justified within the container. It will have equal spacing between the words to fill the width of the container.</p>
+  </div>
+</body>
+</html>
